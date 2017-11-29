@@ -21,8 +21,9 @@
     "extra": {
         "bootstrap": [
             {
-                "type": "file",
-                "filePath": "src/Bootstrap.php"
+                "type": "classMethod",
+                "class": "felicity\\redirect\\Bootstrap",
+                "method": "run"
             }
         ]
     }
